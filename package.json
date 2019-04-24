@@ -1,0 +1,20 @@
+{
+  "name": "subnet-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "netmask": "^1.0.6",
+    "ping": "^0.2.2",
+    "readline-sync": "^1.4.9",
+    "tcp-ping": "^0.1.1",
+    "validate-ip-node": "^1.0.6",
+    "yargs": "^13.2.2"
+  }
+}
