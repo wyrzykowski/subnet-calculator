@@ -1,8 +1,8 @@
-Binary Ip Addsress: 11000000.00100001.00000001.00000010  Binary subnet mask: 11111111.11110000.00000000.00000000
+Binary Ip Addsress: 11000000.10101000.01100010.00000001  Binary subnet mask: 11111111.11111111.11111111.00000000
 Network calss name:C
-network Ip Address binary: 11000000.00100000.00000000.00000000 network Ip Address decimal: 192.32.0.0
-Public Address 
-Network Broadcast Address: 192.47.255.255 Network Broadcast Address Binary: 11000000.00101111.11111111.11111111
-Max host number: 1048574
-First host address: 192.32.0.1
-Last host address:192.47.255.254
+network Ip Address binary: 11000000.10101000.01100010.00000000 network Ip Address decimal: 192.168.98.0
+Private Address
+Network Broadcast Address: 192.168.98.255 Network Broadcast Address Binary: 11000000.10101000.01100010.11111111
+Max host number: 254
+First host address: 192.168.98.1
+Last host address:192.168.98.254
