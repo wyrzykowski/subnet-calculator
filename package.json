@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.4.0",
     "lodash": "^4.17.11",
     "netmask": "^1.0.6",
     "ping": "^0.2.2",

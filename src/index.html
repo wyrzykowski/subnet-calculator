@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <title>Subnet calculator</title>
+    <link rel = "stylesheet" href = "./../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        .result{
+            /*border: 1px solid #5a6268;*/
+        }
+    </style>
+</head>
+
+<body>
+<div class = "container">
+    <h1>Subnet calculator </h1>
+    <button class = "btn btn-success" id = "getCardAddressBtn">Get network card addresses </button>
+    <button class = "btn btn-success" id = "getCardAddressBtnInput">Calculate from Input </button>
+    <input type="text" id="input">
+    <div id="cards"><h3>Installed network adapters:</h3></div>
+    <div id="result"></div>
+    <button class = "btn btn-info" id = "saveToFile" style="display: none">Save to File </button>
+    <script src = "./view.js" ></script>
+</div>
+</body>
+</html>

@@ -34,10 +34,11 @@ module.exports.getAddressIpAndMask=()=>
     else if(ipAndMaskArray.length===1) return  ipAndMaskArray[0]; // If is just one Network Interface not show choose menu, just return value
     else{
         console.log("Choose Network Interface to calculate:")
-        ipAndMaskArray.map((element,index)=>{
-            console.log(ipAndMaskArrayInterfaceName[index],"IP: ", element);
+
+       const findedCards =  ipAndMaskArray.map((element,index)=>{
+            return ipAndMaskArrayInterfaceName[index],"IP: ", element;
         })
-        var choosed = readlineSync.question("");
-        return ipAndMaskArray[choosed];
+        // var choosed = readlineSync.question("");
+        return findedCards;
     }
 }
