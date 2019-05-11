@@ -3,5 +3,5 @@ Desktop application written using Node.js and Electron framework. App get input 
 ### `1. Clone Repo`
 ### `2. npm install`
 intall all required packages.
-### `3 .npm start`
+### `3. npm start`
 Start application in main folder of project
